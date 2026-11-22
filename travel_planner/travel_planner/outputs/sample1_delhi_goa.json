@@ -1,0 +1,594 @@
+{
+  "title": "Your 3-Day Trip to Goa (Dec 12–14)",
+  "agent_mode": "rule-based agent (no LLM key found)",
+  "request": {
+    "origin": "Delhi",
+    "destination": "Goa",
+    "start_date": "2026-12-12",
+    "num_days": 3,
+    "travellers": 1,
+    "round_trip": true,
+    "budget_total": null,
+    "flight_preference": "cheapest",
+    "hotel_preference": "best_value",
+    "min_hotel_stars": 1,
+    "max_hotel_price": null,
+    "required_amenities": [],
+    "interests": [],
+    "spending_level": "standard",
+    "max_stops": 3,
+    "end_date": "2026-12-14"
+  },
+  "flights": {
+    "outbound": {
+      "route": "Delhi -> Kolkata -> Jaipur -> Bangalore -> Goa",
+      "airlines": [
+        "Air India",
+        "Go First",
+        "SpiceJet"
+      ],
+      "stops": 3,
+      "departure": "2026-12-12 05:34",
+      "arrival": "2026-12-13 09:27",
+      "total_duration_minutes": 1673,
+      "max_layover_minutes": 617,
+      "total_price": 20279,
+      "legs": [
+        {
+          "flight_id": "FL0002",
+          "airline": "Air India",
+          "from": "Delhi",
+          "to": "Kolkata",
+          "departure": "2026-12-12 05:34",
+          "arrival": "2026-12-12 09:34",
+          "duration_minutes": 240,
+          "price": 3779
+        },
+        {
+          "flight_id": "FL0007",
+          "airline": "SpiceJet",
+          "from": "Kolkata",
+          "to": "Jaipur",
+          "departure": "2026-12-12 13:11",
+          "arrival": "2026-12-12 14:11",
+          "duration_minutes": 60,
+          "price": 4340
+        },
+        {
+          "flight_id": "FL0026",
+          "airline": "Air India",
+          "from": "Jaipur",
+          "to": "Bangalore",
+          "departure": "2026-12-13 00:28",
+          "arrival": "2026-12-13 02:28",
+          "duration_minutes": 120,
+          "price": 6804
+        },
+        {
+          "flight_id": "FL0021",
+          "airline": "Go First",
+          "from": "Bangalore",
+          "to": "Goa",
+          "departure": "2026-12-13 07:27",
+          "arrival": "2026-12-13 09:27",
+          "duration_minutes": 120,
+          "price": 5356
+        }
+      ]
+    },
+    "outbound_alternatives": [
+      {
+        "route": "Delhi -> Kolkata -> Jaipur -> Bangalore -> Goa",
+        "airlines": [
+          "Air India",
+          "Go First",
+          "SpiceJet"
+        ],
+        "stops": 3,
+        "departure": "2026-12-12 05:34",
+        "arrival": "2026-12-13 08:24",
+        "total_duration_minutes": 1610,
+        "max_layover_minutes": 617,
+        "total_price": 21547,
+        "legs": [
+          {
+            "flight_id": "FL0002",
+            "airline": "Air India",
+            "from": "Delhi",
+            "to": "Kolkata",
+            "departure": "2026-12-12 05:34",
+            "arrival": "2026-12-12 09:34",
+            "duration_minutes": 240,
+            "price": 3779
+          },
+          {
+            "flight_id": "FL0007",
+            "airline": "SpiceJet",
+            "from": "Kolkata",
+            "to": "Jaipur",
+            "departure": "2026-12-12 13:11",
+            "arrival": "2026-12-12 14:11",
+            "duration_minutes": 60,
+            "price": 4340
+          },
+          {
+            "flight_id": "FL0026",
+            "airline": "Air India",
+            "from": "Jaipur",
+            "to": "Bangalore",
+            "departure": "2026-12-13 00:28",
+            "arrival": "2026-12-13 02:28",
+            "duration_minutes": 120,
+            "price": 6804
+          },
+          {
+            "flight_id": "FL0020",
+            "airline": "Go First",
+            "from": "Bangalore",
+            "to": "Goa",
+            "departure": "2026-12-13 07:24",
+            "arrival": "2026-12-13 08:24",
+            "duration_minutes": 60,
+            "price": 6624
+          }
+        ]
+      }
+    ],
+    "return": {
+      "route": "Goa -> Jaipur -> Delhi",
+      "airlines": [
+        "IndiGo"
+      ],
+      "stops": 1,
+      "departure": "2026-12-14 21:38",
+      "arrival": "2026-12-15 04:36",
+      "total_duration_minutes": 418,
+      "max_layover_minutes": 178,
+      "total_price": 12126,
+      "legs": [
+        {
+          "flight_id": "FL0008",
+          "airline": "IndiGo",
+          "from": "Goa",
+          "to": "Jaipur",
+          "departure": "2026-12-14 21:38",
+          "arrival": "2026-12-14 22:38",
+          "duration_minutes": 60,
+          "price": 6755
+        },
+        {
+          "flight_id": "FL0013",
+          "airline": "IndiGo",
+          "from": "Jaipur",
+          "to": "Delhi",
+          "departure": "2026-12-15 01:36",
+          "arrival": "2026-12-15 04:36",
+          "duration_minutes": 180,
+          "price": 5371
+        }
+      ]
+    },
+    "return_alternatives": [
+      {
+        "route": "Goa -> Bangalore -> Delhi",
+        "airlines": [
+          "SpiceJet"
+        ],
+        "stops": 1,
+        "departure": "2026-12-14 17:10",
+        "arrival": "2026-12-15 09:00",
+        "total_duration_minutes": 950,
+        "max_layover_minutes": 590,
+        "total_price": 13140,
+        "legs": [
+          {
+            "flight_id": "FL0023",
+            "airline": "SpiceJet",
+            "from": "Goa",
+            "to": "Bangalore",
+            "departure": "2026-12-14 17:10",
+            "arrival": "2026-12-14 20:10",
+            "duration_minutes": 180,
+            "price": 4537
+          },
+          {
+            "flight_id": "FL0009",
+            "airline": "SpiceJet",
+            "from": "Bangalore",
+            "to": "Delhi",
+            "departure": "2026-12-15 06:00",
+            "arrival": "2026-12-15 09:00",
+            "duration_minutes": 180,
+            "price": 8603
+          }
+        ]
+      },
+      {
+        "route": "Goa -> Bangalore -> Delhi",
+        "airlines": [
+          "SpiceJet"
+        ],
+        "stops": 1,
+        "departure": "2026-12-14 22:52",
+        "arrival": "2026-12-15 14:33",
+        "total_duration_minutes": 941,
+        "max_layover_minutes": 461,
+        "total_price": 15168,
+        "legs": [
+          {
+            "flight_id": "FL0006",
+            "airline": "SpiceJet",
+            "from": "Goa",
+            "to": "Bangalore",
+            "departure": "2026-12-14 22:52",
+            "arrival": "2026-12-15 02:52",
+            "duration_minutes": 240,
+            "price": 8255
+          },
+          {
+            "flight_id": "FL0012",
+            "airline": "SpiceJet",
+            "from": "Bangalore",
+            "to": "Delhi",
+            "departure": "2026-12-15 10:33",
+            "arrival": "2026-12-15 14:33",
+            "duration_minutes": 240,
+            "price": 6913
+          }
+        ]
+      },
+      {
+        "route": "Goa -> Bangalore -> Delhi",
+        "airlines": [
+          "SpiceJet"
+        ],
+        "stops": 1,
+        "departure": "2026-12-14 22:52",
+        "arrival": "2026-12-15 09:00",
+        "total_duration_minutes": 608,
+        "max_layover_minutes": 188,
+        "total_price": 16858,
+        "legs": [
+          {
+            "flight_id": "FL0006",
+            "airline": "SpiceJet",
+            "from": "Goa",
+            "to": "Bangalore",
+            "departure": "2026-12-14 22:52",
+            "arrival": "2026-12-15 02:52",
+            "duration_minutes": 240,
+            "price": 8255
+          },
+          {
+            "flight_id": "FL0009",
+            "airline": "SpiceJet",
+            "from": "Bangalore",
+            "to": "Delhi",
+            "departure": "2026-12-15 06:00",
+            "arrival": "2026-12-15 09:00",
+            "duration_minutes": 180,
+            "price": 8603
+          }
+        ]
+      }
+    ]
+  },
+  "hotel": {
+    "selected": {
+      "hotel_id": "HOT0014",
+      "name": "Royal Heritage",
+      "city": "Goa",
+      "stars": 5,
+      "price_per_night": 1232,
+      "amenities": [
+        "breakfast",
+        "parking",
+        "pool",
+        "wifi"
+      ],
+      "value_score": 4.87
+    },
+    "alternatives": [
+      {
+        "hotel_id": "HOT0015",
+        "name": "Budget Stay Inn",
+        "city": "Goa",
+        "stars": 4,
+        "price_per_night": 2248,
+        "amenities": [
+          "gym",
+          "pool",
+          "spa",
+          "wifi"
+        ],
+        "value_score": 2.22
+      },
+      {
+        "hotel_id": "HOT0011",
+        "name": "Comfort Suites",
+        "city": "Goa",
+        "stars": 5,
+        "price_per_night": 2828,
+        "amenities": [
+          "gym",
+          "pool",
+          "spa",
+          "wifi"
+        ],
+        "value_score": 2.12
+      },
+      {
+        "hotel_id": "HOT0012",
+        "name": "Green Leaf Resort",
+        "city": "Goa",
+        "stars": 3,
+        "price_per_night": 2357,
+        "amenities": [
+          "breakfast",
+          "gym",
+          "pool",
+          "spa"
+        ],
+        "value_score": 1.7
+      }
+    ]
+  },
+  "weather": {
+    "source": "climate-normals",
+    "days": [
+      {
+        "date": "2026-12-12",
+        "condition": "Mostly sunny",
+        "temp_max_c": 33,
+        "temp_min_c": 22,
+        "rain_probability_pct": 3,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2026-12-13",
+        "condition": "Mostly sunny",
+        "temp_max_c": 33,
+        "temp_min_c": 22,
+        "rain_probability_pct": 3,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2026-12-14",
+        "condition": "Mostly sunny",
+        "temp_max_c": 33,
+        "temp_min_c": 22,
+        "rain_probability_pct": 3,
+        "source": "climate-normals"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "place_id": "PLC0012",
+      "name": "Famous Park",
+      "category": "museum",
+      "rating": 4.5,
+      "label": "Famous Park (museum)"
+    },
+    {
+      "place_id": "PLC0014",
+      "name": "Beautiful Park",
+      "category": "fort",
+      "rating": 4.3,
+      "label": "Beautiful Park (fort)"
+    },
+    {
+      "place_id": "PLC0011",
+      "name": "Popular Lake",
+      "category": "museum",
+      "rating": 4.2,
+      "label": "Popular Lake (museum)"
+    },
+    {
+      "place_id": "PLC0013",
+      "name": "Historic Park",
+      "category": "fort",
+      "rating": 4.1,
+      "label": "Historic Park (fort)"
+    },
+    {
+      "place_id": "PLC0015",
+      "name": "Beautiful Lake",
+      "category": "market",
+      "rating": 4.0,
+      "label": "Beautiful Lake (market)"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "In transit",
+      "activities": [],
+      "notes": [
+        "In transit - the journey continues today."
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Market & Museum",
+      "activities": [
+        {
+          "time": "09:30",
+          "place_id": "PLC0012",
+          "name": "Famous Park",
+          "category": "museum",
+          "rating": 4.5,
+          "label": "Famous Park (museum)"
+        },
+        {
+          "time": "13:30",
+          "place_id": "PLC0011",
+          "name": "Popular Lake",
+          "category": "museum",
+          "rating": 4.2,
+          "label": "Popular Lake (museum)"
+        },
+        {
+          "time": "17:00",
+          "place_id": "PLC0015",
+          "name": "Beautiful Lake",
+          "category": "market",
+          "rating": 4.0,
+          "label": "Beautiful Lake (market)"
+        }
+      ],
+      "notes": [
+        "Arrive 09:27 and check in to the hotel."
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Fort",
+      "activities": [
+        {
+          "time": "10:00",
+          "place_id": "PLC0014",
+          "name": "Beautiful Park",
+          "category": "fort",
+          "rating": 4.3,
+          "label": "Beautiful Park (fort)"
+        },
+        {
+          "time": "16:00",
+          "place_id": "PLC0013",
+          "name": "Historic Park",
+          "category": "fort",
+          "rating": 4.1,
+          "label": "Historic Park (fort)"
+        }
+      ],
+      "notes": [
+        "Check out and head to the airport (flight at 21:38)."
+      ]
+    }
+  ],
+  "budget": {
+    "currency": "₹",
+    "travellers": 1,
+    "rooms": 1,
+    "breakdown": {
+      "flights": 32405,
+      "hotel": 1232,
+      "food_and_local_travel": 4500
+    },
+    "assumptions": {
+      "flight_cost_per_person": 32405,
+      "hotel_price_per_night": 1232,
+      "nights": 1,
+      "local_expense_per_person_per_day": 1500,
+      "spending_level": "standard"
+    },
+    "total": 38137,
+    "per_person": 38137,
+    "budget_total": null,
+    "within_budget": null,
+    "difference": null
+  },
+  "reasoning": [
+    "[outbound flight] Selected by 'cheapest' ranking out of 2 possible journeys: ₹20,279, 27h 53m, 3 stop(s). (Cheapest overall: ₹20,279; fastest overall: 26h 50m.)",
+    "[return flight] Selected by 'cheapest' ranking out of 6 possible journeys: ₹12,126, 6h 58m, 1 stop(s). (Cheapest overall: ₹12,126; fastest overall: 6h 58m.)",
+    "[hotel] Royal Heritage chosen because it has the highest value score (4.87) = quality per ₹1,000. It costs ₹1,232/night, 5-star, amenities: breakfast, parking, pool, wifi. 5 hotel(s) matched; cheapest match is Royal Heritage at ₹1,232.",
+    "[places] No specific interests given - places ranked purely by rating.",
+    "[weather] source=climate-normals. Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month."
+  ],
+  "warnings": [
+    "No direct Delhi->Goa flight exists in the dataset; a connection with 3 stop(s) is used.",
+    "No direct Goa->Delhi flight exists in the dataset; a connection with 1 stop(s) is used.",
+    "The outbound journey arrives on 2026-12-13 09:27, 1 day(s) after departure, so sightseeing starts later and 1 hotel night(s) are not charged. Only slow multi-stop connections exist for this route in the dataset.",
+    "Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month."
+  ],
+  "agent_trace": [
+    {
+      "step": 1,
+      "thought": "I need a way to get from Delhi to Goa on 2026-12-12; preference is 'cheapest'.",
+      "action": "search_flights",
+      "action_input": {
+        "origin": "Delhi",
+        "destination": "Goa",
+        "travel_date": "2026-12-12",
+        "preference": "cheapest",
+        "leg": "outbound",
+        "max_stops": 3
+      },
+      "observation": "Selected by 'cheapest' ranking out of 2 possible journeys: ₹20,279, 27h 53m, 3 stop(s). (Cheapest overall: ₹20,279; fastest overall: 26h 50m.)"
+    },
+    {
+      "step": 2,
+      "thought": "The traveller must get home, so I search the return journey on the last day.",
+      "action": "search_flights",
+      "action_input": {
+        "origin": "Goa",
+        "destination": "Delhi",
+        "travel_date": "2026-12-14",
+        "preference": "cheapest",
+        "leg": "return",
+        "max_stops": 3
+      },
+      "observation": "Selected by 'cheapest' ranking out of 6 possible journeys: ₹12,126, 6h 58m, 1 stop(s). (Cheapest overall: ₹12,126; fastest overall: 6h 58m.)"
+    },
+    {
+      "step": 3,
+      "thought": "Next I need accommodation in Goa for 2 night(s) matching the filters.",
+      "action": "recommend_hotels",
+      "action_input": {
+        "city": "Goa",
+        "min_stars": 1,
+        "max_price_per_night": null,
+        "amenities": [],
+        "preference": "best_value"
+      },
+      "observation": "Royal Heritage chosen because it has the highest value score (4.87) = quality per ₹1,000. It costs ₹1,232/night, 5-star, amenities: breakfast, parking, pool, wifi. 5 hotel(s) matched; cheapest match is Royal Heritage at ₹1,232."
+    },
+    {
+      "step": 4,
+      "thought": "Now I look for attractions that fit the traveller's interests.",
+      "action": "discover_places",
+      "action_input": {
+        "city": "Goa",
+        "interests": [],
+        "limit": 12
+      },
+      "observation": "No specific interests given - places ranked purely by rating."
+    },
+    {
+      "step": 5,
+      "thought": "Weather affects which attractions go on which day, so I fetch it before planning.",
+      "action": "get_weather",
+      "action_input": {
+        "city": "Goa",
+        "start_date": "2026-12-12",
+        "end_date": "2026-12-14"
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 6,
+      "thought": "I have flights, weather and places; I can build the day-wise plan now.",
+      "action": "build_itinerary",
+      "action_input": {
+        "num_days": 3
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 7,
+      "thought": "Finally I add up flights, hotel and local expenses and compare with the budget.",
+      "action": "estimate_budget",
+      "action_input": {
+        "flight_cost_per_person": 32405,
+        "hotel_price_per_night": 1232,
+        "nights": 1,
+        "days": 3,
+        "travellers": 1,
+        "spending_level": "standard",
+        "budget_total": null
+      },
+      "observation": "ok"
+    }
+  ]
+}

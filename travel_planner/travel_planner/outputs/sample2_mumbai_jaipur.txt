@@ -1,0 +1,58 @@
+Your 5-Day Trip to Jaipur (Dec 20–24)
+=====================================
+
+Mumbai → Jaipur | 2 traveller(s) | round trip | planner: rule-based agent (no LLM key found)
+
+Flight Selected:
+- Outbound: IndiGo + SpiceJet (₹10,059) – Mumbai -> Goa -> Jaipur – departs 20 Dec 14:38, 8h 00m, 1 stop(s)
+- Return:   Vistara (₹8,981) – Jaipur -> Mumbai – departs 24 Dec 07:49, 3h 00m, Direct
+
+Hotel Recommended:
+- Grand Palace Hotel (₹3,293/night, 4-star) – breakfast, gym, pool, spa, wifi
+
+Weather:
+- Day 1: Mostly sunny (23°C / 9°C, rain 4%)
+- Day 2: Mostly sunny (23°C / 9°C, rain 4%)
+- Day 3: Mostly sunny (23°C / 9°C, rain 4%)
+- Day 4: Mostly sunny (23°C / 9°C, rain 4%)
+- Day 5: Mostly sunny (23°C / 9°C, rain 4%)
+  (source: climate-normals)
+
+Itinerary:
+Day 1: Travel day
+    • Arrive 22:38 and check in to the hotel.
+    • Late arrival - rest and enjoy a local dinner.
+Day 2: Famous Park (fort), Beautiful Park (park)
+    10:00  Famous Park (fort)  ★3.7
+    16:00  Beautiful Park (park)  ★3.7
+Day 3: Scenic Temple (monument), Scenic Park (park)
+    10:00  Scenic Temple (monument)  ★3.7
+    16:00  Scenic Park (park)  ★4.6
+Day 4: Beautiful Fort (park)
+    10:30  Beautiful Fort (park)  ★4.5
+Day 5: Travel day
+    • Check out and head to the airport (flight at 07:49).
+    • Early departure - no sightseeing planned.
+
+Estimated Total Budget:
+- Flight: ₹38,080
+- Hotel: ₹13,172 (1 room(s))
+- Food & Travel: ₹15,000
+-------------------------------------
+Total Cost: ₹66,252  (₹33,126 per person)
+Budget check: OVER your ₹60,000 budget (₹6,252 over)
+
+Notes:
+- No direct Mumbai->Jaipur flight exists in the dataset; a connection with 1 stop(s) is used.
+- Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.
+
+Why we selected this:
+- [outbound flight] Selected by 'cheapest' ranking out of 1 possible journeys: ₹10,059, 8h 00m, 1 stop(s). (Cheapest overall: ₹10,059; fastest overall: 8h 00m.)
+- [return flight] Selected by 'cheapest' ranking out of 4 possible journeys: ₹8,981, 3h 00m, 0 stop(s). (Cheapest overall: ₹8,981; fastest overall: 3h 00m.)
+- [hotel] Grand Palace Hotel chosen because it has the highest value score (1.59) = quality per ₹1,000. It costs ₹3,293/night, 4-star, amenities: breakfast, gym, pool, spa, wifi. 5 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹3,293.
+- [places] 1 place(s) match your interests (fort, market) and are ranked first by rating; the rest follow by rating.
+- [weather] source=climate-normals. Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.
+- [budget] Total ₹66,252 exceeds the budget of ₹60,000; trying cheaper options.
+- [hotel] Grand Palace Hotel chosen because it has the lowest nightly price among matching hotels. It costs ₹3,293/night, 4-star, amenities: breakfast, gym, pool, spa, wifi. 5 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹3,293.
+- [budget] Even the cheapest options cost ₹66,252, ₹6,252 over budget. Consider fewer days, a lower spending level or a different destination.
+

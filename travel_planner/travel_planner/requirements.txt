@@ -1,0 +1,12 @@
+# Core
+langchain>=1.0
+langchain-core>=1.0
+pydantic>=2.0
+requests>=2.31
+pandas>=2.0
+streamlit>=1.40
+# LLM providers (install the one you use; both optional - offline mode works without)
+langchain-anthropic>=1.0
+langchain-openai>=1.0
+# Tests
+pytest>=8.0

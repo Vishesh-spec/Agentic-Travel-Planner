@@ -1,0 +1,588 @@
+{
+  "title": "Your 5-Day Trip to Jaipur (Dec 20–24)",
+  "agent_mode": "rule-based agent (no LLM key found)",
+  "request": {
+    "origin": "Mumbai",
+    "destination": "Jaipur",
+    "start_date": "2026-12-20",
+    "num_days": 5,
+    "travellers": 2,
+    "round_trip": true,
+    "budget_total": 60000,
+    "flight_preference": "cheapest",
+    "hotel_preference": "best_value",
+    "min_hotel_stars": 1,
+    "max_hotel_price": null,
+    "required_amenities": [],
+    "interests": [
+      "fort",
+      "market"
+    ],
+    "spending_level": "standard",
+    "max_stops": 3,
+    "end_date": "2026-12-24"
+  },
+  "flights": {
+    "outbound": {
+      "route": "Mumbai -> Goa -> Jaipur",
+      "airlines": [
+        "IndiGo",
+        "SpiceJet"
+      ],
+      "stops": 1,
+      "departure": "2026-12-20 14:38",
+      "arrival": "2026-12-20 22:38",
+      "total_duration_minutes": 480,
+      "max_layover_minutes": 180,
+      "total_price": 10059,
+      "legs": [
+        {
+          "flight_id": "FL0024",
+          "airline": "SpiceJet",
+          "from": "Mumbai",
+          "to": "Goa",
+          "departure": "2026-12-20 14:38",
+          "arrival": "2026-12-20 18:38",
+          "duration_minutes": 240,
+          "price": 3304
+        },
+        {
+          "flight_id": "FL0008",
+          "airline": "IndiGo",
+          "from": "Goa",
+          "to": "Jaipur",
+          "departure": "2026-12-20 21:38",
+          "arrival": "2026-12-20 22:38",
+          "duration_minutes": 60,
+          "price": 6755
+        }
+      ]
+    },
+    "outbound_alternatives": [],
+    "return": {
+      "route": "Jaipur -> Mumbai",
+      "airlines": [
+        "Vistara"
+      ],
+      "stops": 0,
+      "departure": "2026-12-24 07:49",
+      "arrival": "2026-12-24 10:49",
+      "total_duration_minutes": 180,
+      "max_layover_minutes": 0,
+      "total_price": 8981,
+      "legs": [
+        {
+          "flight_id": "FL0027",
+          "airline": "Vistara",
+          "from": "Jaipur",
+          "to": "Mumbai",
+          "departure": "2026-12-24 07:49",
+          "arrival": "2026-12-24 10:49",
+          "duration_minutes": 180,
+          "price": 8981
+        }
+      ]
+    },
+    "return_alternatives": [
+      {
+        "route": "Jaipur -> Bangalore -> Mumbai",
+        "airlines": [
+          "Air India"
+        ],
+        "stops": 1,
+        "departure": "2026-12-24 00:28",
+        "arrival": "2026-12-24 17:18",
+        "total_duration_minutes": 1010,
+        "max_layover_minutes": 650,
+        "total_price": 11568,
+        "legs": [
+          {
+            "flight_id": "FL0026",
+            "airline": "Air India",
+            "from": "Jaipur",
+            "to": "Bangalore",
+            "departure": "2026-12-24 00:28",
+            "arrival": "2026-12-24 02:28",
+            "duration_minutes": 120,
+            "price": 6804
+          },
+          {
+            "flight_id": "FL0004",
+            "airline": "Air India",
+            "from": "Bangalore",
+            "to": "Mumbai",
+            "departure": "2026-12-24 13:18",
+            "arrival": "2026-12-24 17:18",
+            "duration_minutes": 240,
+            "price": 4764
+          }
+        ]
+      },
+      {
+        "route": "Jaipur -> Bangalore -> Goa -> Mumbai",
+        "airlines": [
+          "Air India",
+          "Go First"
+        ],
+        "stops": 2,
+        "departure": "2026-12-24 00:28",
+        "arrival": "2026-12-24 20:40",
+        "total_duration_minutes": 1212,
+        "max_layover_minutes": 433,
+        "total_price": 19693,
+        "legs": [
+          {
+            "flight_id": "FL0026",
+            "airline": "Air India",
+            "from": "Jaipur",
+            "to": "Bangalore",
+            "departure": "2026-12-24 00:28",
+            "arrival": "2026-12-24 02:28",
+            "duration_minutes": 120,
+            "price": 6804
+          },
+          {
+            "flight_id": "FL0021",
+            "airline": "Go First",
+            "from": "Bangalore",
+            "to": "Goa",
+            "departure": "2026-12-24 07:27",
+            "arrival": "2026-12-24 09:27",
+            "duration_minutes": 120,
+            "price": 5356
+          },
+          {
+            "flight_id": "FL0025",
+            "airline": "Air India",
+            "from": "Goa",
+            "to": "Mumbai",
+            "departure": "2026-12-24 16:40",
+            "arrival": "2026-12-24 20:40",
+            "duration_minutes": 240,
+            "price": 7533
+          }
+        ]
+      },
+      {
+        "route": "Jaipur -> Bangalore -> Goa -> Mumbai",
+        "airlines": [
+          "Air India",
+          "Go First"
+        ],
+        "stops": 2,
+        "departure": "2026-12-24 00:28",
+        "arrival": "2026-12-24 20:40",
+        "total_duration_minutes": 1212,
+        "max_layover_minutes": 496,
+        "total_price": 20961,
+        "legs": [
+          {
+            "flight_id": "FL0026",
+            "airline": "Air India",
+            "from": "Jaipur",
+            "to": "Bangalore",
+            "departure": "2026-12-24 00:28",
+            "arrival": "2026-12-24 02:28",
+            "duration_minutes": 120,
+            "price": 6804
+          },
+          {
+            "flight_id": "FL0020",
+            "airline": "Go First",
+            "from": "Bangalore",
+            "to": "Goa",
+            "departure": "2026-12-24 07:24",
+            "arrival": "2026-12-24 08:24",
+            "duration_minutes": 60,
+            "price": 6624
+          },
+          {
+            "flight_id": "FL0025",
+            "airline": "Air India",
+            "from": "Goa",
+            "to": "Mumbai",
+            "departure": "2026-12-24 16:40",
+            "arrival": "2026-12-24 20:40",
+            "duration_minutes": 240,
+            "price": 7533
+          }
+        ]
+      }
+    ]
+  },
+  "hotel": {
+    "selected": {
+      "hotel_id": "HOT0039",
+      "name": "Grand Palace Hotel",
+      "city": "Jaipur",
+      "stars": 4,
+      "price_per_night": 3293,
+      "amenities": [
+        "breakfast",
+        "gym",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "value_score": 1.59
+    },
+    "alternatives": [
+      {
+        "hotel_id": "HOT0038",
+        "name": "City Center Hotel",
+        "city": "Jaipur",
+        "stars": 2,
+        "price_per_night": 3355,
+        "amenities": [
+          "pool",
+          "spa"
+        ],
+        "value_score": 0.75
+      },
+      {
+        "hotel_id": "HOT0040",
+        "name": "Sea View Resort",
+        "city": "Jaipur",
+        "stars": 5,
+        "price_per_night": 3673,
+        "amenities": [
+          "breakfast",
+          "parking",
+          "pool"
+        ],
+        "value_score": 1.57
+      },
+      {
+        "hotel_id": "HOT0037",
+        "name": "Grand Palace Hotel",
+        "city": "Jaipur",
+        "stars": 4,
+        "price_per_night": 4333,
+        "amenities": [
+          "gym",
+          "pool"
+        ],
+        "value_score": 1.04
+      }
+    ]
+  },
+  "weather": {
+    "source": "climate-normals",
+    "days": [
+      {
+        "date": "2026-12-20",
+        "condition": "Mostly sunny",
+        "temp_max_c": 23,
+        "temp_min_c": 9,
+        "rain_probability_pct": 4,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2026-12-21",
+        "condition": "Mostly sunny",
+        "temp_max_c": 23,
+        "temp_min_c": 9,
+        "rain_probability_pct": 4,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2026-12-22",
+        "condition": "Mostly sunny",
+        "temp_max_c": 23,
+        "temp_min_c": 9,
+        "rain_probability_pct": 4,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2026-12-23",
+        "condition": "Mostly sunny",
+        "temp_max_c": 23,
+        "temp_min_c": 9,
+        "rain_probability_pct": 4,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2026-12-24",
+        "condition": "Mostly sunny",
+        "temp_max_c": 23,
+        "temp_min_c": 9,
+        "rain_probability_pct": 4,
+        "source": "climate-normals"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "place_id": "PLC0038",
+      "name": "Famous Park",
+      "category": "fort",
+      "rating": 3.7,
+      "label": "Famous Park (fort)"
+    },
+    {
+      "place_id": "PLC0040",
+      "name": "Scenic Park",
+      "category": "park",
+      "rating": 4.6,
+      "label": "Scenic Park (park)"
+    },
+    {
+      "place_id": "PLC0037",
+      "name": "Beautiful Fort",
+      "category": "park",
+      "rating": 4.5,
+      "label": "Beautiful Fort (park)"
+    },
+    {
+      "place_id": "PLC0036",
+      "name": "Beautiful Park",
+      "category": "park",
+      "rating": 3.7,
+      "label": "Beautiful Park (park)"
+    },
+    {
+      "place_id": "PLC0039",
+      "name": "Scenic Temple",
+      "category": "monument",
+      "rating": 3.7,
+      "label": "Scenic Temple (monument)"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "Travel day",
+      "activities": [],
+      "notes": [
+        "Arrive 22:38 and check in to the hotel.",
+        "Late arrival - rest and enjoy a local dinner."
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Fort & Park",
+      "activities": [
+        {
+          "time": "10:00",
+          "place_id": "PLC0038",
+          "name": "Famous Park",
+          "category": "fort",
+          "rating": 3.7,
+          "label": "Famous Park (fort)"
+        },
+        {
+          "time": "16:00",
+          "place_id": "PLC0036",
+          "name": "Beautiful Park",
+          "category": "park",
+          "rating": 3.7,
+          "label": "Beautiful Park (park)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 3,
+      "theme": "Monument & Park",
+      "activities": [
+        {
+          "time": "10:00",
+          "place_id": "PLC0039",
+          "name": "Scenic Temple",
+          "category": "monument",
+          "rating": 3.7,
+          "label": "Scenic Temple (monument)"
+        },
+        {
+          "time": "16:00",
+          "place_id": "PLC0040",
+          "name": "Scenic Park",
+          "category": "park",
+          "rating": 4.6,
+          "label": "Scenic Park (park)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 4,
+      "theme": "Park",
+      "activities": [
+        {
+          "time": "10:30",
+          "place_id": "PLC0037",
+          "name": "Beautiful Fort",
+          "category": "park",
+          "rating": 4.5,
+          "label": "Beautiful Fort (park)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 5,
+      "theme": "Travel day",
+      "activities": [],
+      "notes": [
+        "Check out and head to the airport (flight at 07:49).",
+        "Early departure - no sightseeing planned."
+      ]
+    }
+  ],
+  "budget": {
+    "currency": "₹",
+    "travellers": 2,
+    "rooms": 1,
+    "breakdown": {
+      "flights": 38080,
+      "hotel": 13172,
+      "food_and_local_travel": 15000
+    },
+    "assumptions": {
+      "flight_cost_per_person": 19040,
+      "hotel_price_per_night": 3293,
+      "nights": 4,
+      "local_expense_per_person_per_day": 1500,
+      "spending_level": "standard"
+    },
+    "total": 66252,
+    "per_person": 33126,
+    "budget_total": 60000,
+    "within_budget": false,
+    "difference": -6252
+  },
+  "reasoning": [
+    "[outbound flight] Selected by 'cheapest' ranking out of 1 possible journeys: ₹10,059, 8h 00m, 1 stop(s). (Cheapest overall: ₹10,059; fastest overall: 8h 00m.)",
+    "[return flight] Selected by 'cheapest' ranking out of 4 possible journeys: ₹8,981, 3h 00m, 0 stop(s). (Cheapest overall: ₹8,981; fastest overall: 3h 00m.)",
+    "[hotel] Grand Palace Hotel chosen because it has the highest value score (1.59) = quality per ₹1,000. It costs ₹3,293/night, 4-star, amenities: breakfast, gym, pool, spa, wifi. 5 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹3,293.",
+    "[places] 1 place(s) match your interests (fort, market) and are ranked first by rating; the rest follow by rating.",
+    "[weather] source=climate-normals. Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.",
+    "[budget] Total ₹66,252 exceeds the budget of ₹60,000; trying cheaper options.",
+    "[hotel] Grand Palace Hotel chosen because it has the lowest nightly price among matching hotels. It costs ₹3,293/night, 4-star, amenities: breakfast, gym, pool, spa, wifi. 5 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹3,293.",
+    "[budget] Even the cheapest options cost ₹66,252, ₹6,252 over budget. Consider fewer days, a lower spending level or a different destination."
+  ],
+  "warnings": [
+    "No direct Mumbai->Jaipur flight exists in the dataset; a connection with 1 stop(s) is used.",
+    "Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month."
+  ],
+  "agent_trace": [
+    {
+      "step": 1,
+      "thought": "I need a way to get from Mumbai to Jaipur on 2026-12-20; preference is 'cheapest'.",
+      "action": "search_flights",
+      "action_input": {
+        "origin": "Mumbai",
+        "destination": "Jaipur",
+        "travel_date": "2026-12-20",
+        "preference": "cheapest",
+        "leg": "outbound",
+        "max_stops": 3
+      },
+      "observation": "Selected by 'cheapest' ranking out of 1 possible journeys: ₹10,059, 8h 00m, 1 stop(s). (Cheapest overall: ₹10,059; fastest overall: 8h 00m.)"
+    },
+    {
+      "step": 2,
+      "thought": "The traveller must get home, so I search the return journey on the last day.",
+      "action": "search_flights",
+      "action_input": {
+        "origin": "Jaipur",
+        "destination": "Mumbai",
+        "travel_date": "2026-12-24",
+        "preference": "cheapest",
+        "leg": "return",
+        "max_stops": 3
+      },
+      "observation": "Selected by 'cheapest' ranking out of 4 possible journeys: ₹8,981, 3h 00m, 0 stop(s). (Cheapest overall: ₹8,981; fastest overall: 3h 00m.)"
+    },
+    {
+      "step": 3,
+      "thought": "Next I need accommodation in Jaipur for 4 night(s) matching the filters.",
+      "action": "recommend_hotels",
+      "action_input": {
+        "city": "Jaipur",
+        "min_stars": 1,
+        "max_price_per_night": null,
+        "amenities": [],
+        "preference": "best_value"
+      },
+      "observation": "Grand Palace Hotel chosen because it has the highest value score (1.59) = quality per ₹1,000. It costs ₹3,293/night, 4-star, amenities: breakfast, gym, pool, spa, wifi. 5 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹3,293."
+    },
+    {
+      "step": 4,
+      "thought": "Now I look for attractions that fit the traveller's interests.",
+      "action": "discover_places",
+      "action_input": {
+        "city": "Jaipur",
+        "interests": [
+          "fort",
+          "market"
+        ],
+        "limit": 12
+      },
+      "observation": "1 place(s) match your interests (fort, market) and are ranked first by rating; the rest follow by rating."
+    },
+    {
+      "step": 5,
+      "thought": "Weather affects which attractions go on which day, so I fetch it before planning.",
+      "action": "get_weather",
+      "action_input": {
+        "city": "Jaipur",
+        "start_date": "2026-12-20",
+        "end_date": "2026-12-24"
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 6,
+      "thought": "I have flights, weather and places; I can build the day-wise plan now.",
+      "action": "build_itinerary",
+      "action_input": {
+        "num_days": 5
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 7,
+      "thought": "Finally I add up flights, hotel and local expenses and compare with the budget.",
+      "action": "estimate_budget",
+      "action_input": {
+        "flight_cost_per_person": 19040,
+        "hotel_price_per_night": 3293,
+        "nights": 4,
+        "days": 5,
+        "travellers": 2,
+        "spending_level": "standard",
+        "budget_total": 60000
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 8,
+      "thought": "Still over budget: pick the cheapest hotel that meets the filters.",
+      "action": "recommend_hotels",
+      "action_input": {
+        "city": "Jaipur",
+        "min_stars": 1,
+        "max_price_per_night": null,
+        "amenities": [],
+        "preference": "cheapest"
+      },
+      "observation": "Grand Palace Hotel chosen because it has the lowest nightly price among matching hotels. It costs ₹3,293/night, 4-star, amenities: breakfast, gym, pool, spa, wifi. 5 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹3,293."
+    },
+    {
+      "step": 9,
+      "thought": "Finally I add up flights, hotel and local expenses and compare with the budget.",
+      "action": "estimate_budget",
+      "action_input": {
+        "flight_cost_per_person": 19040,
+        "hotel_price_per_night": 3293,
+        "nights": 4,
+        "days": 5,
+        "travellers": 2,
+        "spending_level": "standard",
+        "budget_total": 60000
+      },
+      "observation": "ok"
+    }
+  ]
+}

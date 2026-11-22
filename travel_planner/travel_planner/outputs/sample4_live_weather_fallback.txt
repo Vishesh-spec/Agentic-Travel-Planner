@@ -1,0 +1,51 @@
+Your 3-Day Trip to Chennai (Nov 25–27)
+======================================
+
+Bangalore → Chennai | 1 traveller(s) | round trip | planner: rule-based agent (no LLM key found)
+
+Flight Selected:
+- Outbound: Air India + Go First + IndiGo + SpiceJet (₹21,849) – Bangalore -> Goa -> Kolkata -> Jaipur -> Chennai – departs 25 Nov 07:27, 24h 16m, 3 stop(s)
+- Return:   Air India (₹3,695) – Chennai -> Bangalore – departs 27 Nov 03:08, 2h 00m, Direct
+
+Hotel Recommended:
+- Budget Stay Inn (₹1,312/night, 4-star) – breakfast, pool, spa
+
+Weather:
+- Day 1: Showers likely (29°C / 23°C, rain 65%)
+- Day 2: Showers likely (29°C / 23°C, rain 65%)
+- Day 3: Showers likely (29°C / 23°C, rain 65%)
+  (source: climate-normals)
+
+Itinerary:
+Day 1: In transit
+    • In transit - the journey continues today.
+Day 2: Popular Temple (market), Historic Lake (monument), Scenic Temple (beach)
+    09:30  Popular Temple (market)  ★4.0
+    13:30  Historic Lake (monument)  ★4.2
+    17:00  Scenic Temple (beach)  ★4.8
+    • Arrive 07:43 and check in to the hotel.
+    • High chance of rain - indoor places scheduled first; carry an umbrella.
+Day 3: Travel day
+    • Check out and head to the airport (flight at 03:08).
+    • Early departure - no sightseeing planned.
+    • High chance of rain - indoor places scheduled first; carry an umbrella.
+
+Estimated Total Budget:
+- Flight: ₹25,544
+- Hotel: ₹1,312 (1 room(s))
+- Food & Travel: ₹4,500
+-------------------------------------
+Total Cost: ₹31,356  (₹31,356 per person)
+
+Notes:
+- No direct Bangalore->Chennai flight exists in the dataset; a connection with 3 stop(s) is used.
+- The outbound journey arrives on 2026-11-26 07:43, 1 day(s) after departure, so sightseeing starts later and 1 hotel night(s) are not charged. Only slow multi-stop connections exist for this route in the dataset.
+- Live forecast unavailable (network/API error); showing seasonal averages.
+
+Why we selected this:
+- [outbound flight] Selected by 'cheapest' ranking out of 2 possible journeys: ₹21,849, 24h 16m, 3 stop(s). (Cheapest overall: ₹21,849; fastest overall: 24h 16m.)
+- [return flight] Selected by 'cheapest' ranking out of 4 possible journeys: ₹3,695, 2h 00m, 0 stop(s). (Cheapest overall: ₹3,695; fastest overall: 2h 00m.)
+- [hotel] Budget Stay Inn chosen because it has the highest value score (3.62) = quality per ₹1,000. It costs ₹1,312/night, 4-star, amenities: breakfast, pool, spa. 5 hotel(s) matched; cheapest match is Budget Stay Inn at ₹1,312.
+- [places] No specific interests given - places ranked purely by rating.
+- [weather] source=climate-normals. Live forecast unavailable (network/API error); showing seasonal averages.
+

@@ -1,0 +1,59 @@
+Your 7-Day Trip to Kolkata (Feb 10–16)
+======================================
+
+Hyderabad → Kolkata | 1 traveller(s) | round trip | planner: rule-based agent (no LLM key found)
+
+Flight Selected:
+- Outbound: Air India (₹2,909) – Hyderabad -> Kolkata – departs 10 Feb 22:32, 2h 00m, Direct
+- Return:   Air India + Go First + Vistara (₹16,089) – Kolkata -> Jaipur -> Mumbai -> Hyderabad – departs 16 Feb 23:41, 20h 04m, 2 stop(s)
+
+Hotel Recommended:
+- Grand Palace Hotel (₹2,554/night, 3-star) – breakfast, parking, pool, spa, wifi
+
+Weather:
+- Day 1: Mostly sunny (30°C / 16°C, rain 10%)
+- Day 2: Mostly sunny (30°C / 16°C, rain 10%)
+- Day 3: Mostly sunny (30°C / 16°C, rain 10%)
+- Day 4: Mostly sunny (30°C / 16°C, rain 10%)
+- Day 5: Mostly sunny (30°C / 16°C, rain 10%)
+- Day 6: Mostly sunny (30°C / 16°C, rain 10%)
+- Day 7: Mostly sunny (30°C / 16°C, rain 10%)
+  (source: climate-normals)
+
+Itinerary:
+Day 1: In transit
+    • In transit - the journey continues today.
+Day 2: Historic Temple (temple)
+    10:30  Historic Temple (temple)  ★4.9
+    • Arrive 00:32 and check in to the hotel.
+Day 3: Scenic Museum (temple)
+    10:30  Scenic Museum (temple)  ★4.9
+Day 4: Scenic Museum (museum)
+    10:30  Scenic Museum (museum)  ★4.5
+Day 5: Famous Fort (beach)
+    10:30  Famous Fort (beach)  ★4.9
+Day 6: Famous Temple (market)
+    10:30  Famous Temple (market)  ★4.1
+Day 7: Leisure day
+    • Check out and head to the airport (flight at 23:41).
+    • Flexible day: relax, shop locally, or revisit Historic Temple (temple).
+
+Estimated Total Budget:
+- Flight: ₹18,998
+- Hotel: ₹15,324 (1 room(s))
+- Food & Travel: ₹10,500
+-------------------------------------
+Total Cost: ₹44,822  (₹44,822 per person)
+
+Notes:
+- No direct Kolkata->Hyderabad flight exists in the dataset; a connection with 2 stop(s) is used.
+- The outbound journey arrives on 2027-02-11 00:32, 1 day(s) after departure, so sightseeing starts later; the hotel is still needed for the first night (arrival after midnight).
+- Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.
+
+Why we selected this:
+- [outbound flight] Selected by 'fastest' ranking out of 5 possible journeys: ₹2,909, 2h 00m, 0 stop(s). (Cheapest overall: ₹2,909; fastest overall: 2h 00m.)
+- [return flight] Selected by 'fastest' ranking out of 3 possible journeys: ₹16,089, 20h 04m, 2 stop(s). (Cheapest overall: ₹16,089; fastest overall: 20h 04m.)
+- [hotel] Grand Palace Hotel chosen because it has the highest star rating (3-star) with 5 amenities. It costs ₹2,554/night, 3-star, amenities: breakfast, parking, pool, spa, wifi. 3 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹2,554.
+- [places] 3 place(s) match your interests (museum, temple) and are ranked first by rating; the rest follow by rating.
+- [weather] source=climate-normals. Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.
+

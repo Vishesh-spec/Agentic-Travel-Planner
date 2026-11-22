@@ -1,0 +1,51 @@
+Your 3-Day Trip to Goa (Dec 12–14)
+==================================
+
+Delhi → Goa | 1 traveller(s) | round trip | planner: rule-based agent (no LLM key found)
+
+Flight Selected:
+- Outbound: Air India + Go First + SpiceJet (₹20,279) – Delhi -> Kolkata -> Jaipur -> Bangalore -> Goa – departs 12 Dec 05:34, 27h 53m, 3 stop(s)
+- Return:   IndiGo (₹12,126) – Goa -> Jaipur -> Delhi – departs 14 Dec 21:38, 6h 58m, 1 stop(s)
+
+Hotel Recommended:
+- Royal Heritage (₹1,232/night, 5-star) – breakfast, parking, pool, wifi
+
+Weather:
+- Day 1: Mostly sunny (33°C / 22°C, rain 3%)
+- Day 2: Mostly sunny (33°C / 22°C, rain 3%)
+- Day 3: Mostly sunny (33°C / 22°C, rain 3%)
+  (source: climate-normals)
+
+Itinerary:
+Day 1: In transit
+    • In transit - the journey continues today.
+Day 2: Famous Park (museum), Popular Lake (museum), Beautiful Lake (market)
+    09:30  Famous Park (museum)  ★4.5
+    13:30  Popular Lake (museum)  ★4.2
+    17:00  Beautiful Lake (market)  ★4.0
+    • Arrive 09:27 and check in to the hotel.
+Day 3: Beautiful Park (fort), Historic Park (fort)
+    10:00  Beautiful Park (fort)  ★4.3
+    16:00  Historic Park (fort)  ★4.1
+    • Check out and head to the airport (flight at 21:38).
+
+Estimated Total Budget:
+- Flight: ₹32,405
+- Hotel: ₹1,232 (1 room(s))
+- Food & Travel: ₹4,500
+-------------------------------------
+Total Cost: ₹38,137  (₹38,137 per person)
+
+Notes:
+- No direct Delhi->Goa flight exists in the dataset; a connection with 3 stop(s) is used.
+- No direct Goa->Delhi flight exists in the dataset; a connection with 1 stop(s) is used.
+- The outbound journey arrives on 2026-12-13 09:27, 1 day(s) after departure, so sightseeing starts later and 1 hotel night(s) are not charged. Only slow multi-stop connections exist for this route in the dataset.
+- Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.
+
+Why we selected this:
+- [outbound flight] Selected by 'cheapest' ranking out of 2 possible journeys: ₹20,279, 27h 53m, 3 stop(s). (Cheapest overall: ₹20,279; fastest overall: 26h 50m.)
+- [return flight] Selected by 'cheapest' ranking out of 6 possible journeys: ₹12,126, 6h 58m, 1 stop(s). (Cheapest overall: ₹12,126; fastest overall: 6h 58m.)
+- [hotel] Royal Heritage chosen because it has the highest value score (4.87) = quality per ₹1,000. It costs ₹1,232/night, 5-star, amenities: breakfast, parking, pool, wifi. 5 hotel(s) matched; cheapest match is Royal Heritage at ₹1,232.
+- [places] No specific interests given - places ranked purely by rating.
+- [weather] source=climate-normals. Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month.
+

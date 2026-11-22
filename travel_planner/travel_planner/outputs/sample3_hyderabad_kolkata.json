@@ -1,0 +1,718 @@
+{
+  "title": "Your 7-Day Trip to Kolkata (Feb 10–16)",
+  "agent_mode": "rule-based agent (no LLM key found)",
+  "request": {
+    "origin": "Hyderabad",
+    "destination": "Kolkata",
+    "start_date": "2027-02-10",
+    "num_days": 7,
+    "travellers": 1,
+    "round_trip": true,
+    "budget_total": null,
+    "flight_preference": "fastest",
+    "hotel_preference": "best_rated",
+    "min_hotel_stars": 1,
+    "max_hotel_price": null,
+    "required_amenities": [
+      "spa"
+    ],
+    "interests": [
+      "museum",
+      "temple"
+    ],
+    "spending_level": "standard",
+    "max_stops": 3,
+    "end_date": "2027-02-16"
+  },
+  "flights": {
+    "outbound": {
+      "route": "Hyderabad -> Kolkata",
+      "airlines": [
+        "Air India"
+      ],
+      "stops": 0,
+      "departure": "2027-02-10 22:32",
+      "arrival": "2027-02-11 00:32",
+      "total_duration_minutes": 120,
+      "max_layover_minutes": 0,
+      "total_price": 2909,
+      "legs": [
+        {
+          "flight_id": "FL0015",
+          "airline": "Air India",
+          "from": "Hyderabad",
+          "to": "Kolkata",
+          "departure": "2027-02-10 22:32",
+          "arrival": "2027-02-11 00:32",
+          "duration_minutes": 120,
+          "price": 2909
+        }
+      ]
+    },
+    "outbound_alternatives": [
+      {
+        "route": "Hyderabad -> Delhi -> Kolkata",
+        "airlines": [
+          "Air India",
+          "IndiGo"
+        ],
+        "stops": 1,
+        "departure": "2027-02-10 11:32",
+        "arrival": "2027-02-10 23:50",
+        "total_duration_minutes": 738,
+        "max_layover_minutes": 378,
+        "total_price": 9172,
+        "legs": [
+          {
+            "flight_id": "FL0001",
+            "airline": "IndiGo",
+            "from": "Hyderabad",
+            "to": "Delhi",
+            "departure": "2027-02-10 11:32",
+            "arrival": "2027-02-10 15:32",
+            "duration_minutes": 240,
+            "price": 2907
+          },
+          {
+            "flight_id": "FL0028",
+            "airline": "Air India",
+            "from": "Delhi",
+            "to": "Kolkata",
+            "departure": "2027-02-10 21:50",
+            "arrival": "2027-02-10 23:50",
+            "duration_minutes": 120,
+            "price": 6265
+          }
+        ]
+      },
+      {
+        "route": "Hyderabad -> Goa -> Jaipur -> Kolkata",
+        "airlines": [
+          "Air India",
+          "IndiGo"
+        ],
+        "stops": 2,
+        "departure": "2027-02-10 14:26",
+        "arrival": "2027-02-11 10:41",
+        "total_duration_minutes": 1215,
+        "max_layover_minutes": 663,
+        "total_price": 18426,
+        "legs": [
+          {
+            "flight_id": "FL0016",
+            "airline": "Air India",
+            "from": "Hyderabad",
+            "to": "Goa",
+            "departure": "2027-02-10 14:26",
+            "arrival": "2027-02-10 18:26",
+            "duration_minutes": 240,
+            "price": 7299
+          },
+          {
+            "flight_id": "FL0008",
+            "airline": "IndiGo",
+            "from": "Goa",
+            "to": "Jaipur",
+            "departure": "2027-02-10 21:38",
+            "arrival": "2027-02-10 22:38",
+            "duration_minutes": 60,
+            "price": 6755
+          },
+          {
+            "flight_id": "FL0011",
+            "airline": "IndiGo",
+            "from": "Jaipur",
+            "to": "Kolkata",
+            "departure": "2027-02-11 09:41",
+            "arrival": "2027-02-11 10:41",
+            "duration_minutes": 60,
+            "price": 4372
+          }
+        ]
+      },
+      {
+        "route": "Hyderabad -> Mumbai -> Goa -> Jaipur -> Kolkata",
+        "airlines": [
+          "Go First",
+          "IndiGo",
+          "SpiceJet"
+        ],
+        "stops": 3,
+        "departure": "2027-02-10 07:40",
+        "arrival": "2027-02-11 10:41",
+        "total_duration_minutes": 1621,
+        "max_layover_minutes": 663,
+        "total_price": 21193,
+        "legs": [
+          {
+            "flight_id": "FL0022",
+            "airline": "Go First",
+            "from": "Hyderabad",
+            "to": "Mumbai",
+            "departure": "2027-02-10 07:40",
+            "arrival": "2027-02-10 10:40",
+            "duration_minutes": 180,
+            "price": 6762
+          },
+          {
+            "flight_id": "FL0024",
+            "airline": "SpiceJet",
+            "from": "Mumbai",
+            "to": "Goa",
+            "departure": "2027-02-10 14:38",
+            "arrival": "2027-02-10 18:38",
+            "duration_minutes": 240,
+            "price": 3304
+          },
+          {
+            "flight_id": "FL0008",
+            "airline": "IndiGo",
+            "from": "Goa",
+            "to": "Jaipur",
+            "departure": "2027-02-10 21:38",
+            "arrival": "2027-02-10 22:38",
+            "duration_minutes": 60,
+            "price": 6755
+          },
+          {
+            "flight_id": "FL0011",
+            "airline": "IndiGo",
+            "from": "Jaipur",
+            "to": "Kolkata",
+            "departure": "2027-02-11 09:41",
+            "arrival": "2027-02-11 10:41",
+            "duration_minutes": 60,
+            "price": 4372
+          }
+        ]
+      }
+    ],
+    "return": {
+      "route": "Kolkata -> Jaipur -> Mumbai -> Hyderabad",
+      "airlines": [
+        "Air India",
+        "Go First",
+        "Vistara"
+      ],
+      "stops": 2,
+      "departure": "2027-02-16 23:41",
+      "arrival": "2027-02-17 19:45",
+      "total_duration_minutes": 1204,
+      "max_layover_minutes": 476,
+      "total_price": 16089,
+      "legs": [
+        {
+          "flight_id": "FL0014",
+          "airline": "Air India",
+          "from": "Kolkata",
+          "to": "Jaipur",
+          "departure": "2027-02-16 23:41",
+          "arrival": "2027-02-17 01:41",
+          "duration_minutes": 120,
+          "price": 4316
+        },
+        {
+          "flight_id": "FL0027",
+          "airline": "Vistara",
+          "from": "Jaipur",
+          "to": "Mumbai",
+          "departure": "2027-02-17 07:49",
+          "arrival": "2027-02-17 10:49",
+          "duration_minutes": 180,
+          "price": 8981
+        },
+        {
+          "flight_id": "FL0018",
+          "airline": "Go First",
+          "from": "Mumbai",
+          "to": "Hyderabad",
+          "departure": "2027-02-17 18:45",
+          "arrival": "2027-02-17 19:45",
+          "duration_minutes": 60,
+          "price": 2792
+        }
+      ]
+    },
+    "return_alternatives": [
+      {
+        "route": "Kolkata -> Jaipur -> Bangalore -> Goa -> Hyderabad",
+        "airlines": [
+          "Air India",
+          "Go First",
+          "SpiceJet"
+        ],
+        "stops": 3,
+        "departure": "2027-02-16 13:11",
+        "arrival": "2027-02-17 12:18",
+        "total_duration_minutes": 1387,
+        "max_layover_minutes": 617,
+        "total_price": 23092,
+        "legs": [
+          {
+            "flight_id": "FL0007",
+            "airline": "SpiceJet",
+            "from": "Kolkata",
+            "to": "Jaipur",
+            "departure": "2027-02-16 13:11",
+            "arrival": "2027-02-16 14:11",
+            "duration_minutes": 60,
+            "price": 4340
+          },
+          {
+            "flight_id": "FL0026",
+            "airline": "Air India",
+            "from": "Jaipur",
+            "to": "Bangalore",
+            "departure": "2027-02-17 00:28",
+            "arrival": "2027-02-17 02:28",
+            "duration_minutes": 120,
+            "price": 6804
+          },
+          {
+            "flight_id": "FL0021",
+            "airline": "Go First",
+            "from": "Bangalore",
+            "to": "Goa",
+            "departure": "2027-02-17 07:27",
+            "arrival": "2027-02-17 09:27",
+            "duration_minutes": 120,
+            "price": 5356
+          },
+          {
+            "flight_id": "FL0017",
+            "airline": "Go First",
+            "from": "Goa",
+            "to": "Hyderabad",
+            "departure": "2027-02-17 11:18",
+            "arrival": "2027-02-17 12:18",
+            "duration_minutes": 60,
+            "price": 6592
+          }
+        ]
+      },
+      {
+        "route": "Kolkata -> Jaipur -> Bangalore -> Goa -> Hyderabad",
+        "airlines": [
+          "Air India",
+          "Go First",
+          "SpiceJet"
+        ],
+        "stops": 3,
+        "departure": "2027-02-16 13:11",
+        "arrival": "2027-02-17 12:18",
+        "total_duration_minutes": 1387,
+        "max_layover_minutes": 617,
+        "total_price": 24360,
+        "legs": [
+          {
+            "flight_id": "FL0007",
+            "airline": "SpiceJet",
+            "from": "Kolkata",
+            "to": "Jaipur",
+            "departure": "2027-02-16 13:11",
+            "arrival": "2027-02-16 14:11",
+            "duration_minutes": 60,
+            "price": 4340
+          },
+          {
+            "flight_id": "FL0026",
+            "airline": "Air India",
+            "from": "Jaipur",
+            "to": "Bangalore",
+            "departure": "2027-02-17 00:28",
+            "arrival": "2027-02-17 02:28",
+            "duration_minutes": 120,
+            "price": 6804
+          },
+          {
+            "flight_id": "FL0020",
+            "airline": "Go First",
+            "from": "Bangalore",
+            "to": "Goa",
+            "departure": "2027-02-17 07:24",
+            "arrival": "2027-02-17 08:24",
+            "duration_minutes": 60,
+            "price": 6624
+          },
+          {
+            "flight_id": "FL0017",
+            "airline": "Go First",
+            "from": "Goa",
+            "to": "Hyderabad",
+            "departure": "2027-02-17 11:18",
+            "arrival": "2027-02-17 12:18",
+            "duration_minutes": 60,
+            "price": 6592
+          }
+        ]
+      }
+    ]
+  },
+  "hotel": {
+    "selected": {
+      "hotel_id": "HOT0033",
+      "name": "Grand Palace Hotel",
+      "city": "Kolkata",
+      "stars": 3,
+      "price_per_night": 2554,
+      "amenities": [
+        "breakfast",
+        "parking",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "value_score": 1.66
+    },
+    "alternatives": [
+      {
+        "hotel_id": "HOT0034",
+        "name": "Grand Palace Hotel",
+        "city": "Kolkata",
+        "stars": 3,
+        "price_per_night": 3887,
+        "amenities": [
+          "parking",
+          "pool",
+          "spa",
+          "wifi"
+        ],
+        "value_score": 1.03
+      },
+      {
+        "hotel_id": "HOT0035",
+        "name": "Grand Palace Hotel",
+        "city": "Kolkata",
+        "stars": 2,
+        "price_per_night": 5932,
+        "amenities": [
+          "gym",
+          "spa"
+        ],
+        "value_score": 0.42
+      }
+    ]
+  },
+  "weather": {
+    "source": "climate-normals",
+    "days": [
+      {
+        "date": "2027-02-10",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2027-02-11",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2027-02-12",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2027-02-13",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2027-02-14",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2027-02-15",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      },
+      {
+        "date": "2027-02-16",
+        "condition": "Mostly sunny",
+        "temp_max_c": 30,
+        "temp_min_c": 16,
+        "rain_probability_pct": 10,
+        "source": "climate-normals"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "place_id": "PLC0032",
+      "name": "Historic Temple",
+      "category": "temple",
+      "rating": 4.9,
+      "label": "Historic Temple (temple)"
+    },
+    {
+      "place_id": "PLC0033",
+      "name": "Scenic Museum",
+      "category": "temple",
+      "rating": 4.9,
+      "label": "Scenic Museum (temple)"
+    },
+    {
+      "place_id": "PLC0035",
+      "name": "Scenic Museum",
+      "category": "museum",
+      "rating": 4.5,
+      "label": "Scenic Museum (museum)"
+    },
+    {
+      "place_id": "PLC0031",
+      "name": "Famous Fort",
+      "category": "beach",
+      "rating": 4.9,
+      "label": "Famous Fort (beach)"
+    },
+    {
+      "place_id": "PLC0034",
+      "name": "Famous Temple",
+      "category": "market",
+      "rating": 4.1,
+      "label": "Famous Temple (market)"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "In transit",
+      "activities": [],
+      "notes": [
+        "In transit - the journey continues today."
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Temple",
+      "activities": [
+        {
+          "time": "10:30",
+          "place_id": "PLC0032",
+          "name": "Historic Temple",
+          "category": "temple",
+          "rating": 4.9,
+          "label": "Historic Temple (temple)"
+        }
+      ],
+      "notes": [
+        "Arrive 00:32 and check in to the hotel."
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Temple",
+      "activities": [
+        {
+          "time": "10:30",
+          "place_id": "PLC0033",
+          "name": "Scenic Museum",
+          "category": "temple",
+          "rating": 4.9,
+          "label": "Scenic Museum (temple)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 4,
+      "theme": "Museum",
+      "activities": [
+        {
+          "time": "10:30",
+          "place_id": "PLC0035",
+          "name": "Scenic Museum",
+          "category": "museum",
+          "rating": 4.5,
+          "label": "Scenic Museum (museum)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 5,
+      "theme": "Beach",
+      "activities": [
+        {
+          "time": "10:30",
+          "place_id": "PLC0031",
+          "name": "Famous Fort",
+          "category": "beach",
+          "rating": 4.9,
+          "label": "Famous Fort (beach)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 6,
+      "theme": "Market",
+      "activities": [
+        {
+          "time": "10:30",
+          "place_id": "PLC0034",
+          "name": "Famous Temple",
+          "category": "market",
+          "rating": 4.1,
+          "label": "Famous Temple (market)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "day": 7,
+      "theme": "Leisure day",
+      "activities": [],
+      "notes": [
+        "Check out and head to the airport (flight at 23:41).",
+        "Flexible day: relax, shop locally, or revisit Historic Temple (temple)."
+      ]
+    }
+  ],
+  "budget": {
+    "currency": "₹",
+    "travellers": 1,
+    "rooms": 1,
+    "breakdown": {
+      "flights": 18998,
+      "hotel": 15324,
+      "food_and_local_travel": 10500
+    },
+    "assumptions": {
+      "flight_cost_per_person": 18998,
+      "hotel_price_per_night": 2554,
+      "nights": 6,
+      "local_expense_per_person_per_day": 1500,
+      "spending_level": "standard"
+    },
+    "total": 44822,
+    "per_person": 44822,
+    "budget_total": null,
+    "within_budget": null,
+    "difference": null
+  },
+  "reasoning": [
+    "[outbound flight] Selected by 'fastest' ranking out of 5 possible journeys: ₹2,909, 2h 00m, 0 stop(s). (Cheapest overall: ₹2,909; fastest overall: 2h 00m.)",
+    "[return flight] Selected by 'fastest' ranking out of 3 possible journeys: ₹16,089, 20h 04m, 2 stop(s). (Cheapest overall: ₹16,089; fastest overall: 20h 04m.)",
+    "[hotel] Grand Palace Hotel chosen because it has the highest star rating (3-star) with 5 amenities. It costs ₹2,554/night, 3-star, amenities: breakfast, parking, pool, spa, wifi. 3 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹2,554.",
+    "[places] 3 place(s) match your interests (museum, temple) and are ranked first by rating; the rest follow by rating.",
+    "[weather] source=climate-normals. Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month."
+  ],
+  "warnings": [
+    "No direct Kolkata->Hyderabad flight exists in the dataset; a connection with 2 stop(s) is used.",
+    "The outbound journey arrives on 2027-02-11 00:32, 1 day(s) after departure, so sightseeing starts later; the hotel is still needed for the first night (arrival after midnight).",
+    "Trip dates are outside the 15-day live forecast window; showing typical seasonal weather for that month."
+  ],
+  "agent_trace": [
+    {
+      "step": 1,
+      "thought": "I need a way to get from Hyderabad to Kolkata on 2027-02-10; preference is 'fastest'.",
+      "action": "search_flights",
+      "action_input": {
+        "origin": "Hyderabad",
+        "destination": "Kolkata",
+        "travel_date": "2027-02-10",
+        "preference": "fastest",
+        "leg": "outbound",
+        "max_stops": 3
+      },
+      "observation": "Selected by 'fastest' ranking out of 5 possible journeys: ₹2,909, 2h 00m, 0 stop(s). (Cheapest overall: ₹2,909; fastest overall: 2h 00m.)"
+    },
+    {
+      "step": 2,
+      "thought": "The traveller must get home, so I search the return journey on the last day.",
+      "action": "search_flights",
+      "action_input": {
+        "origin": "Kolkata",
+        "destination": "Hyderabad",
+        "travel_date": "2027-02-16",
+        "preference": "fastest",
+        "leg": "return",
+        "max_stops": 3
+      },
+      "observation": "Selected by 'fastest' ranking out of 3 possible journeys: ₹16,089, 20h 04m, 2 stop(s). (Cheapest overall: ₹16,089; fastest overall: 20h 04m.)"
+    },
+    {
+      "step": 3,
+      "thought": "Next I need accommodation in Kolkata for 6 night(s) matching the filters.",
+      "action": "recommend_hotels",
+      "action_input": {
+        "city": "Kolkata",
+        "min_stars": 1,
+        "max_price_per_night": null,
+        "amenities": [
+          "spa"
+        ],
+        "preference": "best_rated"
+      },
+      "observation": "Grand Palace Hotel chosen because it has the highest star rating (3-star) with 5 amenities. It costs ₹2,554/night, 3-star, amenities: breakfast, parking, pool, spa, wifi. 3 hotel(s) matched; cheapest match is Grand Palace Hotel at ₹2,554."
+    },
+    {
+      "step": 4,
+      "thought": "Now I look for attractions that fit the traveller's interests.",
+      "action": "discover_places",
+      "action_input": {
+        "city": "Kolkata",
+        "interests": [
+          "museum",
+          "temple"
+        ],
+        "limit": 12
+      },
+      "observation": "3 place(s) match your interests (museum, temple) and are ranked first by rating; the rest follow by rating."
+    },
+    {
+      "step": 5,
+      "thought": "Weather affects which attractions go on which day, so I fetch it before planning.",
+      "action": "get_weather",
+      "action_input": {
+        "city": "Kolkata",
+        "start_date": "2027-02-10",
+        "end_date": "2027-02-16"
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 6,
+      "thought": "I have flights, weather and places; I can build the day-wise plan now.",
+      "action": "build_itinerary",
+      "action_input": {
+        "num_days": 7
+      },
+      "observation": "ok"
+    },
+    {
+      "step": 7,
+      "thought": "Finally I add up flights, hotel and local expenses and compare with the budget.",
+      "action": "estimate_budget",
+      "action_input": {
+        "flight_cost_per_person": 18998,
+        "hotel_price_per_night": 2554,
+        "nights": 6,
+        "days": 7,
+        "travellers": 1,
+        "spending_level": "standard",
+        "budget_total": null
+      },
+      "observation": "ok"
+    }
+  ]
+}
